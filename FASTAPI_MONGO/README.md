@@ -1,12 +1,14 @@
-readme_content = """
-# 🌐 DataLake API
+# 🌐 DataLake
 
-Bienvenue dans l'API **DataLake**, une API RESTful développée avec **FastAPI**, permettant de gérer des **logs réseaux**, des **posts sociaux** et des **transactions clients**.  
+Ce Repo est l'issue d'un exercice de création d'un **DataLake** sur Mongo Atlas.
+Une **API** à ensuite été imaginer pour concevoir une architecture complete est fonctionnelle. Pour ce faire, une API RESTful a été développer avec **FastAPI**, permettant de gérer des **logs réseaux**, des **posts sociaux** et des **transactions clients**.  
 L’API est sécurisée par **JWT**, avec des rôles (`user`, `admin`), un **quota horaire**, et une structure **versionnée** (`/v1`).
 
 ---
 
-## 🚀 Fonctionnalités principales
+
+
+## 🚀 Fonctionnalités principales de l'API
 
 - 🔐 Authentification par token JWT (`/register`, `/token`)
 - 📉 Gestion de quota par utilisateur (100 requêtes/h)
@@ -30,6 +32,8 @@ L’API est sécurisée par **JWT**, avec des rôles (`user`, `admin`), un **quo
 ## 📦 Installation
 
 ```bash
+# Initialiser son architecture Mongo (models.py)
+
 # 1. Cloner le repo
 git clone https://github.com/Louube/datalake-api.git
 cd datalake-api
